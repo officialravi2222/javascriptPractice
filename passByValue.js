@@ -33,4 +33,11 @@ let b = [1, 2];
 
 
 console.log(`arr == b ${arr == b}`);
-console.log(`arr == b ${arr === b}`);
+console.log(`arr === b ${arr === b}`);
+
+// OUTPUT :
+// arr == b false
+// arr == b false
+
+// Here when we compare two arrays then the result is coming false because two arrays are refering to different memory locattions
+
